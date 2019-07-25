@@ -5,7 +5,7 @@ import h5py
 import matplotlib.pyplot as plt
 
 
-def mean_pred(y_true, y_pred):
+def mean_predctn(y_true, y_pred):
     return K.mean(y_pred)
 
 def load_dataset():
